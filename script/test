@@ -1,4 +1,5 @@
 #!/bin/sh
+cd $HOME
  git clone https://github.com/shivajividhale/Devops_Milestone1.git
  cd Devops_Milestone1.git
  npm install
