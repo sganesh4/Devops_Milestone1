@@ -1,0 +1,6 @@
+#!/bin/sh
+ git clone https://github.com/shivajividhale/Devops_Milestone1.git
+ cd Devops_Milestone1.git
+ npm install
+./node_modules/.bin/mocha ./test/test.js
+node app.js
