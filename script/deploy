@@ -1,0 +1,3 @@
+#!/bin/sh
+cd /var/lib/jenkins/workspace/HelloWorld
+./node_modules/.bin/forever start ./app.js
