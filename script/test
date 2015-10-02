@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh appuser@45.55.57.213 <<EOF
-cd ~/workspace/Devops_Milestone1
+cd $HOME/workspace/Devops_Milestone1
 git pull
 npm install
 ./node_modules/.bin/forever start ./app.js
