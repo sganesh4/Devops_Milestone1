@@ -2,6 +2,5 @@
 ssh appuser@45.55.57.213 <<EOF
 cd ~/workspace/Devops_Milestone1
 npm install
-node app.js &
-./node_modules/.bin/mocha ./test/test.js
+forever start app.js
 EOF
