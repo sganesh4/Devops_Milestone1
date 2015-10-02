@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh appuser@45.55.57.213 <<EOF
-cd $HOME/workspace/Devops_Milestone1
+cd ~/workspace/Devops_Milestone1
 npm install
 node app.js &
 ./node_modules/.bin/mocha ./test/test.js
