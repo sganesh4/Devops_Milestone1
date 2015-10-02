@@ -1,5 +1,5 @@
 #!/bin/sh
 #kill hello world server
-ps -aef |grep "node app.js"|grep -v grep|awk  {'print $2'}|xargs kill -9
+ps -aef |grep "node"|grep "app.js"|grep -v grep|awk  {'print $2'}|xargs kill -9
 cd /var/lib/jenkins/workspace/HelloWorld
 lpm install
