@@ -1,3 +1,4 @@
 #!/bin/sh
-#cd /var/lib/jenkins/workspace/HellWorld
+cd /var/lib/jenkins/workspace/HellWorld
 npm install
+./node_modules/.bin/forever stopall
