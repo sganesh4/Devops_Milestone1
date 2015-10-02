@@ -1,4 +1,4 @@
 #!/bin/sh
 cd /var/lib/jenkins/workspace/HelloWorld
-npm install
+lpm install
 ./node_modules/.bin/forever stopall
