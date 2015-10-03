@@ -21,3 +21,6 @@ We have set up a Jenkins Server on Digital Ocean.
 5) External Post-Build Job Triggers: If the build fails, an e-mail notification is sent to all contributors. If the build is a success, a "deploy" or "deploy-dev" script is executed depending on the current branch.   
 6) Multiple Branches, Multiple Jobs: If changes are committed to the main branch and the build is successful, a "deploy" script is executed. This starts the application server. A simple "Hello World" application is used in this demonstration. On the other hand, if changes are committed to branch1 and the build is successful, a "deploy-dev" script is executed. This starts the application server but the application in this case displays the build history of that branch.   
 7) Build History and Display over HTTP: The build history is displayed when changes are committed to branch1 and the build is successful. The Build History is also displayed on the Jenkins page for each job.   
+
+### Screencast
+[Checkout!](https://www.youtube.com/watch?v=Cnm4u82uVIc&feature=youtu.be&hd=1)
